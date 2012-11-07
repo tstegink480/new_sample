@@ -1,6 +1,6 @@
 #Ruby on Rails Tutorial: sample application
 #Sample application for Ruby on Rails Tutorial for COS243
---by Trent Stegink 
+--by Brandon Reppert 
 
 == Welcome to Rails
 
