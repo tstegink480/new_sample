@@ -1,0 +1,11 @@
+<script>
+function remaining_count()
+    {
+    characters = document.getElementById("micropost_content").value.length;
+    display_characters_remaining = document.getElementById("remaining");
+    display_characters_remaining.innerHTML = 140 - characters + " characters remaining";
+    }
+form_field = document.getElementById("micropost_content");
+remaining_count()
+form_field.addEventListener("keyup",remaining_count,false);
+</script>
